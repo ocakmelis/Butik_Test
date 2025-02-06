@@ -12,6 +12,9 @@ namespace EticaretData.Configurrations
     {
         public void Configure(EntityTypeBuilder<AppUser> builder)
         {
+
+
+            var now = DateTime.Now;
             builder.Property(x => x.Name).IsRequired().HasColumnType("varchar(50)").HasMaxLength(50);
             builder.Property(x => x.Surname).IsRequired().HasColumnType("varchar(50)").HasMaxLength(50);
             builder.Property(x => x.Email).IsRequired().HasColumnType("varchar(50)").HasMaxLength(50);

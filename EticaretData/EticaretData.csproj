@@ -15,7 +15,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Butik_Test\Butik_Test.csproj" />
     <ProjectReference Include="..\EticaretCore\EticaretCore.csproj" />
   </ItemGroup>
 

@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using EticaretCore.Entities;
 using EticaretData.Configurrations;
 using System.Reflection;
+using Microsoft.EntityFrameworkCore.Diagnostics;
 
 namespace EticaretData
 {
@@ -25,12 +26,12 @@ namespace EticaretData
         {
             optionsBuilder.UseSqlServer(@"Server=DESKTOP-9F3Q7SP;
 Database=EticaretDb; Trusted_Connection=True; TrustServerCertificate=True;");
+
+            optionsBuilder.ConfigureWarnings(warnings => warnings.Ignore(RelationalEventId.PendingModelChangesWarning));
             base.OnConfiguring(optionsBuilder);
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-           // modelBuilder.ApplyConfiguration(new AppUserConfiguration());
-           // modelBuilder.ApplyConfiguration(new BrandConfiguration());
 
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly()); // çalışan dilin içinden bulucak
             base.OnModelCreating(modelBuilder);

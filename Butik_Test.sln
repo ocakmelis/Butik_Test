@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Butik_Test", "Butik_Test\Butik_Test.csproj", "{2C00A040-A4E9-4B4F-AAC6-7E9A39B199C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Butik_Test", "Butik_Test\Butik_Test.csproj", "{2C00A040-A4E9-4B4F-AAC6-7E9A39B199C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EticaretCore", "EticaretCore\EticaretCore.csproj", "{9EA10B89-3CA8-433E-B063-8FA77CD6A336}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EticaretCore", "EticaretCore\EticaretCore.csproj", "{9EA10B89-3CA8-433E-B063-8FA77CD6A336}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EticaretData", "EticaretData\EticaretData.csproj", "{E2FBF731-D28B-4E2E-96A7-1AFB39BC180F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EticaretData", "EticaretData\EticaretData.csproj", "{E2FBF731-D28B-4E2E-96A7-1AFB39BC180F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EticaretService", "EticaretService\EticaretService.csproj", "{526FD6F1-9311-4CB5-A127-5FE0530957CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EticaretService", "EticaretService\EticaretService.csproj", "{526FD6F1-9311-4CB5-A127-5FE0530957CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

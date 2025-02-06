@@ -15,6 +15,6 @@ namespace EticaretCore.Entities
         public bool IsActive { get; set; }
         public int OrderNo { get; set; }
         public DateTime CreateDate { get; set; }
-        public IList<Product> Products { get; set; }
+        public List<Product>? Products { get; set; }
     }
 }
